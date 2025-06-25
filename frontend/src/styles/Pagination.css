@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pagination button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pagination button:hover {
+  border-color: #4a90e2;
+}
+
+.pagination button.active {
+  border: 2px solid #4a90e2;
+  color: #4a90e2;
+  font-weight: bold;
+}

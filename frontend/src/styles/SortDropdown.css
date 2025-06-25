@@ -1,0 +1,37 @@
+.sort-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e2e2e2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.view-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.sort-dropdown {
+  font-size: 14px;
+  color: #555;
+}
+.sort-dropdown {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-dropdown select {
+  padding: 4px 8px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: white;
+}

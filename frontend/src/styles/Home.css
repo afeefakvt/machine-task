@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.hero-section {
+  background: #D9D9D9;
+  color: #333;
+  padding: 6rem 0;
+  margin-bottom: 2rem;
+}
+
+.home-container {
+  padding: 0rem;
+}
+
+.main-layout {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.product-section {
+  flex: 1;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 0rem;
+}
+
+img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.breadcrumb-wrapper {
+  padding: 0 4rem;
+  margin-top: 1rem;
+}

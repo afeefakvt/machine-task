@@ -1,0 +1,10 @@
+.breadcrumbs {
+  font-size: 14px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}
+
+.breadcrumbs .home-link {
+  color: #007bff; /* Bootstrap blue, or use your theme color */
+  cursor: pointer;
+}
